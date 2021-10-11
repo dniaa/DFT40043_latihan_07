@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BORANG PENDAFTARAN</title>
+</head>
+<body>
+    <h1>Borang Pendaftaran</h1>
+
+    <form action="simpan.php" method="post">
+
+        <label for="nama">Full Name</label>
+        <input type="text" name="nama" id="nama" size="50" placeholder="Full Name" required>
+        <br><br>
+
+        <label>Gender</label><br>
+        <br>
+        <input type="radio" id="Woman" name="gender" value="Woman">
+        <label for="Woman">Woman</label>
+        <br>
+        <input type="radio" id="Man" name="gender" value="Man">
+        <label for="Man">Man</label>
+        <br><br>
+
+        <label for="brands">Choose Brands</label>
+        <select name="brands" id="brands">
+            <option value="nike">Nike</option>
+            <option value="adidas">Adidas</option>
+            <option value="chanel">Chanel</option>
+            <option value="cucci">Gucci</option>
+        </select>
+        <br><br>
+
+        <br><br>
+
+        <button type="sumbit">SUMBIT</button>
+        <button type="reset">BATAL</button>
+    </form>
+</body>
+</html>
