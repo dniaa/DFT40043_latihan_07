@@ -13,13 +13,21 @@
 
         <label for="nama">Full Name</label>
         <input type="text" name="nama" id="nama" size="50" placeholder="Full Name" required>
-        <br><br>
+        <br><br><br>
+
+        <label for="quantity">Your Age</label><br><br>
+        <input type="number" id="quantity" name="quantity" min="1" max="100">
+        <br><br><br>
+
+        <label for="address">Address</label><br><br>
+        <textarea id="address" name="address" rows="4" cols="50"> </textarea>
+        <br><br><br>
 
         <label>Gender</label><br>
-        <br>
+        <br><br>
         <input type="radio" id="Woman" name="gender" value="Woman">
         <label for="Woman">Woman</label>
-        <br>
+        <br><br><br>
         <input type="radio" id="Man" name="gender" value="Man">
         <label for="Man">Man</label>
         <br><br>
@@ -29,14 +37,21 @@
             <option value="nike">Nike</option>
             <option value="adidas">Adidas</option>
             <option value="chanel">Chanel</option>
-            <option value="cucci">Gucci</option>
+            <option value="gucci">Gucci</option>
         </select>
-        <br><br>
+        <br><br><br>
 
-        <br><br>
+        <label for="pwd">Password</label>
+        <input type="password" id="pwd" name="pwd">
+        <br><br><br>
 
-        <button type="sumbit">SUMBIT</button>
-        <button type="reset">BATAL</button>
+        <input type="hidden" name="tarikh" value="12 Oktober 2021">
+        <button type="submit">SUBMIT</button>
+        <button type="reset">RESET</button>
+        <br><br><br>
+
+        <label for="myfile">Select a file</label>
+        <input type="file" id="file" name="myfile">
     </form>
 </body>
 </html>
